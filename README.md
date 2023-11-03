@@ -1,7 +1,5 @@
 # E-Commerce Data Analysis with Hadoop, MySQL, and Hive
 
-This README provides step-by-step instructions for setting up a Hadoop cluster, MySQL, and Hive, loading E-Commerce data into Hadoop Distributed File System (HDFS), and running basic analysis before and after optimization. The provided data source is from Kaggle's E-Commerce Behavior Data from a Multi-Category Store.
-
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Setting Up Hadoop](#setting-up-hadoop)
