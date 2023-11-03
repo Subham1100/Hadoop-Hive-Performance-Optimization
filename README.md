@@ -65,7 +65,7 @@ group by month(event_time);
 select distinct category_id as product_category
 from ecommerce_stats;
 ```
-##Time Taken:
+## Time Taken:
 
 Time taken 1st: 213.554 seconds, Fetched: 1 row(s)
 Time taken 2nd: 104.22 seconds, Fetched: 625 row(s)
@@ -77,7 +77,7 @@ Implement bucketed partitioning in Hive by creating a table with buckets based o
 Load the data into the new partitioned table.
 
 
-##Time Taken After optimization:
+## Time Taken After optimization:
 Time taken 1st: 194.112 seconds previously(213.554), Fetched: 1 row(s)
 Time taken 2nd: 89.407 seconds previously(104.22), Fetched: 625 row(s)
 
