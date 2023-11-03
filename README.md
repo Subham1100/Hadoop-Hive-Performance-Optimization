@@ -54,12 +54,12 @@ Before starting, make sure you have the following installed:
 ## Basic Analysis
 
 ```sql
-hive> select month(event_time) as pur_month,
->        sum(price) as pur_total_price
-> from ecommerce_stats
-> where year(event_time) = 2019
->   and event_type = 'purchase'
-> group by month(event_time);
+ select month(event_time) as pur_month,
+sum(price) as pur_total_price
+from ecommerce_stats
+where year(event_time) = 2019
+and event_type = 'purchase'
+group by month(event_time);
 ```
 ```
 select distinct category_id as product_category
